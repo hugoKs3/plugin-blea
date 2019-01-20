@@ -30,6 +30,7 @@ class Tile():
 			result['battery'] = batteryDatas[0]
 			result['id'] = mac
 			logging.debug(str(result))
+            logging.debug('CONNECTOR------Characteristics gotten... '+ str(conn.getCharacteristics())
 			return result
 		except Exception,e:
 			logging.error(str(e))
