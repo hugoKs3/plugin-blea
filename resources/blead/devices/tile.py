@@ -17,7 +17,7 @@ class Tile():
 		action['present'] = 1
 		return action
     
-    def read(self,mac):
+	def read(self,mac):
 		result={}
 		try:
 			conn = Connector(mac)
