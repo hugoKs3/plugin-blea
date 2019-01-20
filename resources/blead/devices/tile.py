@@ -2,6 +2,7 @@ from bluepy.btle import Scanner, DefaultDelegate
 import time
 import logging
 import globals
+from multiconnect import Connector
 
 class Tile():
 	def __init__(self):
